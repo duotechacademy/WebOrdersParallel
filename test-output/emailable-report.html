@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">All Tests</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">31,067</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">io.duotech.tests.AllOrdersTests</td><td><a href="#m0">verifyMessageAfterDeleteAll</a></td><td rowspan="1">1585265346731</td><td rowspan="1">1512</td></tr><tr><th colspan="4">All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">io.duotech.tests.AllOrdersTests</td><td><a href="#m1">verifyCheckAllButton</a></td><td rowspan="1">1585265338104</td><td rowspan="1">1110</td></tr><tr class="passedeven"><td><a href="#m2">verifyUncheckAllButton</a></td><td rowspan="1">1585265356199</td><td rowspan="1">595</td></tr><tr class="passedodd"><td rowspan="4">io.duotech.tests.LoginTest</td><td><a href="#m3">login</a></td><td rowspan="1">1585265337030</td><td rowspan="1">1083</td></tr><tr class="passedodd"><td><a href="#m4">loginPOMPattern</a></td><td rowspan="1">1585265344634</td><td rowspan="1">694</td></tr><tr class="passedodd"><td><a href="#m5">loginPOMPatternNegative</a></td><td rowspan="1">1585265352222</td><td rowspan="1">416</td></tr><tr class="passedodd"><td><a href="#m6">testRun</a></td><td rowspan="1">1585265359784</td><td rowspan="1">3</td></tr><tr class="passedeven"><td rowspan="3">io.duotech.tests.OrderTests</td><td><a href="#m7">verifyQuantityErrorMessage</a></td><td rowspan="1">1585265338385</td><td rowspan="1">270</td></tr><tr class="passedeven"><td><a href="#m8">verifyQuantityErrorMessage2</a></td><td rowspan="1">1585265346801</td><td rowspan="1">230</td></tr><tr class="passedeven"><td><a href="#m9">verifyQuantityErrorMessage3</a></td><td rowspan="1">1585265354487</td><td rowspan="1">138</td></tr></tbody>
+</table>
+<h2>All Tests</h2><h3 id="m0">io.duotech.tests.AllOrdersTests#verifyMessageAfterDeleteAll</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Title is not correct did not expect to find [true] but found [false],
+	Welcome message was wrong did not expect to find [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at io.duotech.tests.AllOrdersTests.verifyMessageAfterDeleteAll(AllOrdersTests.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">io.duotech.tests.AllOrdersTests#verifyCheckAllButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">io.duotech.tests.AllOrdersTests#verifyUncheckAllButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">io.duotech.tests.LoginTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">io.duotech.tests.LoginTest#loginPOMPattern</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">io.duotech.tests.LoginTest#loginPOMPatternNegative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">io.duotech.tests.LoginTest#testRun</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">io.duotech.tests.OrderTests#verifyQuantityErrorMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">io.duotech.tests.OrderTests#verifyQuantityErrorMessage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">io.duotech.tests.OrderTests#verifyQuantityErrorMessage3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
